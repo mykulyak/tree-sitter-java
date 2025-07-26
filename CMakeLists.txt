@@ -53,6 +53,6 @@ install(FILES "${CMAKE_CURRENT_BINARY_DIR}/tree-sitter-java.pc"
 install(TARGETS tree-sitter-java
         LIBRARY DESTINATION "${CMAKE_INSTALL_LIBDIR}")
 
-add_custom_target(ts-test "${TREE_SITTER_CLI}" test
-                  WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}"
-                  COMMENT "tree-sitter test")
+# add_custom_target(ts-test "${TREE_SITTER_CLI}" test
+#                   WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}"
+#                   COMMENT "tree-sitter test")
